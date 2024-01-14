@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ciwi Automotive</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="../js/CarManager.js"></script>
+    <script src="../js/zajecia_obiekt.js"></script>
+</head>
+<body onload="onLoadFunctionObjects()" >
+
+    <div class="background">
+        <header>
+            <div class="navigation">
+                <div class="nav-logo">
+                    <img src="../img/logo.png" alt="" id="logo-picture" >
+                </div>
+                <div class="nav-options">
+                    <div class="nav-option" id="home"><a class="nav-a-style" style="color: #3BB0D1;"  href="mainSite.html">Home</a></div>
+                    <div class="nav-option" id="garage"><a class="nav-a-style" href="otherSites/garage.php">Garage</a></div>
+                    <div class="nav-option" id="contact"><a class="nav-a-style" href="otherSites/contact.php">Contact</a></div>
+                    <div class="nav-option" id="opinions"><a class="nav-a-style" href="otherSites/opinions.php">Opinions</a></div>
+                </div>
+
+            </div>
+        </header>
+
+
+        <div>
+            <label for="obj-el-1">1:</label>
+            <input class ="form-input" type="text" id="obj-el-1" name="obj-el-1" >
+            <label for="obj-el-new-1">new 1:</label>
+            <input class ="form-input" type="text" id="obj-el-new-1" name="obj-el-new-1">
+            <button onclick="changeObjectValue(1)">Click</button>
+        </div>
+
+        <div>
+            <label for="obj-el-2">2:</label>
+            <input class ="form-input" type="text" id="obj-el-2" name="obj-el-2">
+            <label for="obj-el-new-2">new 2:</label>
+            <input class ="form-input" type="text" id="obj-el-new-2" name="obj-el-new-2">
+            <button onclick="changeObjectValue(2)">Click</button>
+        </div>
+
+        <div>
+            <label for="obj-el-3">3:</label>
+            <input class ="form-input" type="text" id="obj-el-3" name="obj-el-3">
+            <label for="obj-el-new-3">new 3:</label>
+            <input class ="form-input" type="text" id="obj-el-new-3" name="obj-el-new-3">
+            <button onclick="changeObjectValue(3)">Click</button>
+        </div>
+
+        <div>
+            <label for="obj-el-4">4:</label>
+            <input class ="form-input" type="text" id="obj-el-4" name="obj-el-4">
+            <label for="obj-el-new-1">new 4:</label>
+            <input class ="form-input" type="text" id="obj-el-new-4" name="obj-el-new-4">
+            <button onclick="changeObjectValue(4)">Click</button>
+        </div>
+
+        </br>
+        <div id="container-array">
+            <div class="array-div">
+                <label for="arr-el-1">1:</label>
+                <input class ="form-input" type="text" id="arr-el-1" name="arr-el-1" >
+            </div>
+
+            <div class="array-div">
+                <label for="arr-el-2">2:</label>
+                <input class ="form-input" type="text" id="arr-el-2" name="arr-el-2">
+            </div>
+
+            <div class="array-div">
+                <label for="arr-el-3">3:</label>
+                <input class ="form-input" type="text" id="arr-el-3" name="arr-el-3">
+            </div>
+
+            <div class="array-div">
+                <label for="arr-el-4">4:</label>
+                <input class ="form-input" type="text" id="arr-el-4" name="arr-el-4">
+            </div>
+        </div>
+
+        <label for="new-value">Value:</label>
+        <input class ="form-input" type="text" id="new-value" name="new-value">
+        <label for="new-index">Index:</label>
+        <input class ="form-input" type="text" id="new-index" name="new-index">
+        <button onclick="changeObjectValue2()">Click</button>
+
+        </br>
+        <label for="new-input">New:</label>
+        <input class ="form-input" type="text" id="new-input" name="new-input">
+        <button onclick="addNewInputs()">Click</button>
+
+
+    </div>
+</body>
+</html>

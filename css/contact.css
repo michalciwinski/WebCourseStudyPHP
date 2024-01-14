@@ -1,0 +1,48 @@
+/*CONTACT*/
+
+#main-contact-content{
+    font-family: 'Public Sans';
+    color: white;
+    width:60%;
+    margin-left:20%;
+    margin-top: 2%;
+}
+#main-header{
+    font-size: 1.8vw;
+    margin-bottom: 5%;
+}
+.tit-1{
+    font-size: 1.2vw;
+    color: white;
+}
+.tit-2{
+    color: #5CE1E6;
+    font-size: 1vw;
+}
+#send-email-header{
+    font-size: 1.8vw;
+    margin-top: 5%;
+}
+
+#form-email{
+    display:grid;
+}
+.form-input{
+    width:50%;
+}
+#message{
+    height:200px;
+}
+#form-button-div{
+    margin: 2% 0 2% 0;
+    text-align: center;
+    height: 100%;
+}
+#form-button-submit{
+    width: 20%;
+    background: #5CE1E6;
+    border-color: #5CE1E6;
+    border-radius: 2px;
+    height: 100%;
+}
+/*CONTACT*/

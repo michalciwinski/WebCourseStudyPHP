@@ -1,0 +1,223 @@
+body{
+  font-family: "Inter", Sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+
+}
+
+
+.nawigacja{
+  position:sticky;
+  top:0px;
+  z-index: 100;
+}
+
+.nawigacja ul{
+  margin:0;
+  display: flex;
+  list-style-type: none;
+  padding: 1rem;
+  justify-content: right;
+
+}
+.nawigacja li{
+  padding: 0.5rem 1rem;
+}
+.nawigacja a{
+  text-decoration: none;
+  color:white;
+}
+
+.main{
+  display: block;
+}
+
+.main-img-container{
+
+}
+
+.main-image{
+  width: 90%;
+  height: auto;
+
+}
+.shopname{
+  justify-content: center;
+  text-align: center;
+  position:absolute;
+  left: 0;
+  right: 0;
+  top: 25%;
+  margin: auto;
+  font-size: 3rem;
+  padding:0 10%;
+}
+.incentive{
+  text-align: center;
+  position:absolute;
+  left: 0;
+  right: 0;
+  top: 35%;
+  margin: auto;
+  font-size: 1.5rem;
+  padding:0 10%;
+}
+
+.header2{
+  color:rgb(115,66,18);
+  text-align: center;
+}
+
+.container-main-info{
+  padding: 0 5%;
+}
+
+.opinie-container{
+  width: 40%;
+  margin-left: 30%;
+  background-color: darkkhaki;
+  padding: 0;
+
+}
+
+.form-opinie{
+  display: grid;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.form-input{
+  width:80%;
+}
+.form-button-submit{
+  margin-top:2%;
+  width:80%;
+}
+.form-textarea{
+  width:80%;
+  height:80px;
+}
+
+#radio-div{
+  margin-top:5%;
+  margin-bottom: 5%;
+  display:flex;
+}
+
+
+.comments-div{
+  background-color: grey;
+  padding:0;
+  margin-left: 15%;
+  width:70%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.comment-div{
+  margin-top:5px;
+  background-color: darkgrey;
+}
+
+.bold-art{
+  font-weight: 800;
+}
+
+.comment-row{
+  margin-top: 5px;
+}
+
+
+
+
+
+
+
+#spistresci{
+  color:black;
+  background-color: grey;
+}
+
+
+
+.servicesdiv{
+
+}
+.localizations{
+  background-color: rgb(115,66,18);
+  color:white;
+}
+
+
+.nawigacja{
+  background-color: rgb(115,66,18);
+  color:white;
+  list-style: none;
+  display:block;
+}
+
+
+
+#spistresci{
+  background-color: rgb(100,70,18);
+}
+#spistresci ul{
+  width: 20%;
+  margin: auto;
+  list-style: none;
+}
+#spistresci li{
+  padding:1rem;
+}
+#spistresci a{
+  text-decoration: none;
+  color:Black;
+  background-color: white;
+  border: solid;
+  border-radius:1rem;
+}
+#spistresci button{
+  border-radius: 1rem;
+  border:solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.header3{
+  color: white;
+}
+
+
+.services{
+  color:white;
+}
+
+.servicesdiv{
+  background-color: rgb(115,66,18);
+}
+
+.contact{
+  background-color: rgb(115,66,18);
+  text-align: center;
+}
+
+.someinfo{
+
+}
+.header-in-someinfo{
+  font-size: 1em;
+}

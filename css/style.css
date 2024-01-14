@@ -1,0 +1,236 @@
+.html{
+
+}
+body{
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.background{
+    position: fixed;
+    background: rgb(12,27,39);
+    background: linear-gradient(180deg, rgba(12,27,39,1) 0%, rgba(170,175,184,1) 35%);
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+
+/*Desktop version*/
+/* Header Styles */
+header {
+    display:inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-logo img {
+    max-width: 100%;
+    height: auto;
+}
+.nav-options {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.nav-option{
+    justify-content: center;
+}
+.nav-option a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.nav-option a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.nav-option a.active {
+    color: #3BB0D1;
+}
+
+
+
+
+/*Garage*/
+.garage-content{
+    height:100%;
+}
+.main-content{
+    width: 100%;
+    height: auto;
+    margin-left: 5%;
+}
+
+#first-tile{
+    display: flex;
+    text-align: center;
+}
+#first-left{
+    width:45%;
+    padding-top: 5%;
+}
+#first-right{
+    width:45%;
+    padding-top: 5%;
+}
+
+
+
+#title{
+    font-family: 'Racing Sans One', sans-serif;
+    font-size: 48px;
+    color:white;
+}
+#main-text{
+    font-size: 16px;
+    font-weight: 500;
+    color:white;
+    line-height: 1.6;
+    margin-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#car-picture{
+    width:100%;
+    height: auto;
+}
+
+#second-tiles{
+    display: flex;
+    height:100%;
+    margin-top: 7vh;
+    justify-content:center;
+    width:90%;
+}
+.tile{
+    width: 21%;
+    background: rgb(90,95,102);
+    background: linear-gradient(180deg, rgba(90,95,102,1) 0%, rgba(19,40,57,1) 75%);
+    margin-right:3vw;
+    border-radius:30px;
+    display:flex;
+    height:12vh;
+}
+
+
+
+.sc-left-div{
+    display: flex;
+    padding-left:3%;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+.sc-left-pict{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20%;
+}
+
+
+
+.sc-middle-div{
+    width:50%;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+.header-middle{
+    font-size: 80%;
+    color:#5CE1E6;
+    margin:10% 0 0 0;
+    padding:0;
+}
+.main-text-middle{
+    font-family: 'Public Sans';
+    font-size: 4vh;
+    margin:1vh 0 0 0;
+    padding:0;
+    height: auto;
+    color:#FFFFFF;
+}
+
+.sc-right-div{
+    display: flex;
+    margin-top: 2vh;
+    height: 90%;
+    width:20%;
+    align-items: center;
+}
+.right-unit{
+    font-size: 2vh;
+    color:#5CE1E6;
+    margin:0;
+    padding:0;
+}
+
+
+.third-tiles{
+    position: relative;
+    overflow: hidden;
+    height:100%;
+    display: inline;
+}
+
+
+#arrows-change-div{
+    width:90%;
+    height: auto;
+    display:flex;
+    position: relative;
+    overflow: hidden;
+    justify-content: space-between;
+}
+.arrow-change{
+    width: 5vw;
+    height: 5vw;
+    padding:0;
+    margin:0;
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+}
+.arrow-picture{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#dots-change-div{
+    width:90%;
+    text-align:center;
+    margin-top: 2vh;
+}
+.dot-button{
+    width: 2vh;
+    height: 2vh;
+    margin-left: 0.5vh;
+    margin-right: 0.5vh;
+    border-radius: 50%;
+    border-color: #5CE1E6;
+    background-color: rgba(0, 0, 0, 0);
+}
+.dot-button.active {
+    background: #5CE1E6;
+}
+
+
+
+
+
+
+/*Mobile version.. for the future*/
